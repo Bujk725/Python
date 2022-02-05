@@ -1,2 +1,3 @@
-# Python
-Python ile örnekler
+# Python ile Yapılan Popüler Örnekler
+
+- Python ile Faktoriyel Hesaplama
