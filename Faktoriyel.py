@@ -3,7 +3,7 @@ def Faktoriyel(sayı):
     while sayı>1:
         çarpım *= sayı # Girilen sayıyı çarpım ile çarpıp, çarpıma eşitliyoruz
         sayı -= 1 # Sayıyı bir azaltıyoruz
-    print(çarpım)
+    return çarpım
 
 
 
@@ -19,8 +19,10 @@ while True:
         break
     elif(sayı >= "0"): # Girilen sayı negatif sayı değilse fonksiyon çalıştırıyoruz
         sayı = int(sayı) # İnput ile girilen sayıyı tam sayıya çeviriyoruz
-        Faktoriyel(sayı)
+        print("{}! = {}".format(sayı,Faktoriyel(sayı)))
+        
     else: 
         print("Lütfen pozitif sayı giriniz:")
 
+    
     
