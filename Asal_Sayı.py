@@ -1,22 +1,22 @@
 def asal_sayı(limit):
-    asal_sayılar = list()
-    for sayı in range(2, limit+1):
+    asal_sayılar = list()   # Asal_sayılar adında boş bir liste oluşturuyoruz
+    for sayı in range(2, limit+1):   # Limit dahil olmadığı içib bir arttırarak yzıyoruz
         bölündü = False
         bölen = 2
-        while(sayı > bölen):
-            if(sayı % bölen == 0):
-                bölündü = True
-            bölen += 1
+        while(sayı > bölen):   # Sayı, bölenden büyük olana kadar döngü yapılıyor
+            if(sayı % bölen == 0): 
+                bölündü = True    # Sayı, bölene kalansız bölünürse, bölündü True değeri alacak
+            bölen += 1   # Sayı, bölene kalansız bölünmezse, bölen bir arttırarak döngü tekrarlanır
         if(bölündü == False):
-            asal_sayılar.append(sayı)
-    print(asal_sayılar)
+            asal_sayılar.append(sayı)  # Sayı asalsa asal_sayılar listesine ekliyoruz
+    print(asal_sayılar) 
 
 
 def asal_mı(sayı):
-    for i in range(2, sayı):
-        if(sayı % i == 0):
-            return False
-        return True
+    for i in range(2, sayı):     # İki'den, sayıya kadar i değeri oluşturuyoruz
+        if(sayı % i == 0):       
+            return False         # Sayı oluşturduğumuz i değerine kalansız bölünürse False değeri dönüyoruz
+        return True              # Sayı oluşturduğumuz i değerine bölünmezse True değeri dönüyoruz
 
 
 print("""
@@ -31,8 +31,8 @@ Seçenekler;
 
 """)
 
-işlem = input("Seçenek seçiniz: ")
-if(işlem == "1"):
+işlem = input("Seçenek seçiniz: ") 
+if(işlem == "1"):       
     sayı = int(input("Üst Sınır giriniz: "))
     if(sayı > 1):
         asal_sayı(sayı)
