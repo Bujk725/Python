@@ -1,3 +1,5 @@
 # Python ile Yapılan Popüler Örnekler
 
-- Python ile Faktoriyel Hesaplama
+- Faktoriyel Hesaplama
+
+- **Girilen üst sınıra kadar asal sayıları gösterir** veya **girdiğiniz sayının asal olup olmadığını söyler**
