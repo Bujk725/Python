@@ -22,4 +22,4 @@ print("--------------------Harf Notu Hesaplama Uygulamasına Hoşgeldiniz-------
 
 vize = int(input("Vize1 Notunuzu Giriniz: ")) # İnput string değerinde çıktı verdiği için integer'a çeviriyoruz
 final = int(input("Final Notunuzu Giriniz: ")) # İnput string değerinde çıktı verdiği için integer'a çeviriyoruz
-print("Ortalamanız:",format(hesaplama(vize,final)))
+print("Ortalamanız:".format(hesaplama(vize,final)))
