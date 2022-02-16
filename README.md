@@ -8,4 +8,4 @@
 
 - Sayı_Tahmin_Oyunu: Bilgisayarın rastgele ürettiği sayıyı bulmaya çalışıyoruz
 
-- direnç_hesaplama: 4 veya 5 bandlı direncin üzerindeki renklere göre değerini söyler
+- direnç_Hesaplama: 4 veya 5 bandlı direncin üzerindeki renklere göre değerini söyler
