@@ -9,3 +9,5 @@
 - Sayı_Tahmin_Oyunu: Bilgisayarın rastgele ürettiği sayıyı bulmaya çalışıyoruz
 
 - direnç_Hesaplama: 4 veya 5 bandlı direncin üzerindeki renklere göre değerini söyler
+
+- sayının_tam_bölenler: Girilen sayının tam bölenlerini gösterir
